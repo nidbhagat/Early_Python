@@ -1,0 +1,8 @@
+Objective - The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements. 
+Used open-source diabetes dataset which is originally from the National Institute of Diabetes and Digestive and Kidney Diseases.
+Constraint:
+- selected predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, SkinThickness, BP, and DiabetesPedigreeFunction.
+- all patients here are females at least 21 years old of Pima Indian heritage.
+
+Acknowledgements
+Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer Society Press.
