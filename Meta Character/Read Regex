@@ -1,0 +1,29 @@
+[] A set of characters
+\ Signals a special sequence (can also be used to escape special characters)
+. Any character (except newline character)
+^ Starts with 
+$ Ends with
+* Zero or more occurrences
++ One or more occurrences
+{} Excactly the specified number of occurrences
+| Either or
+() Capture and group
+
+Special Sequences
+\A	Matches pattern only at the start of the string
+\Z	Matches pattern only at the end of the string
+\d	Matches to any digit.
+Short for character classes [0-9]
+\D	Matches to any non-digit.
+short for [^0-9]
+\s	Matches any whitespace character.
+short for character class [ \t\n\x0b\r\f]
+\S	Matches any non-whitespace character.
+short for [^ \t\n\x0b\r\f]
+\w	Matches any alphanumeric character.
+short for character class [a-zA-Z_0-9]
+\W	Matches any non-alphanumeric character.
+short for [^a-zA-Z_0-9]
+\b	Matches the empty string, but only at the beginning or end of a word. Matches a word boundary where a word character is [a-zA-Z0-9_].
+For example, ‘\bJessa\b' matches ‘Jessa’, ‘Jessa.’, ‘(Jessa)’, ‘Jessa Emma Kelly’ but not ‘JessaKelly’ or ‘Jessa5’.
+\B	Opposite of a \b. Matches the empty string, but only when it is not at the beginning or end of a word
